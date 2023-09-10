@@ -1,5 +1,5 @@
-num_switches = ...  # Ваш код
+num_switches = int(input(':'))
 
-combinations = ...  # Ваш код
+combinations = num_switches ** 2
 
-print(...)  # Ваш код
+print(combinations)
