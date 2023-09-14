@@ -1,4 +1,4 @@
-num_switches: int = int(input('Введите количество\nпереключателей:'))  # 1.Исправьте текст-подсказку в input()
+num_switches: int = int(input('Введите количество переключателей: '))
 
 combinations: int = 2 ** num_switches
-print("Количество возможных комбинаций:", combinations)
+print('Количество возможных комбинаций:', combinations)

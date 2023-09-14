@@ -1,4 +1,4 @@
-number: int = int(input('Введите четырехзначное число: '))
+number: int = int(input("Введите четырехзначное число: "))
 
 thousands: int = number // 1000
 hundreds: int = number % 1000 // 100
@@ -9,4 +9,3 @@ print("Цифра в позиции тысяч:", thousands)
 print("Цифра в позиции сотен:", hundreds)
 print("Цифра в позиции десятков:", tens)
 print("Цифра в позиции единиц:", units)
-
